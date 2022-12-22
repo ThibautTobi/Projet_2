@@ -1,0 +1,13 @@
+body{
+    font-family: 'Raleway','sans-serif','arial' ;
+}
+
+/************** header **************/
+
+nav{
+    display: flex;   
+}
+
+.ul_nav{
+    flex-direction: row;
+}
