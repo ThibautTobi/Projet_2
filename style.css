@@ -352,3 +352,13 @@ footer{
 li{
     margin:15px 0px 15px 0px;
 }
+
+/******************************** @media queries tablette ******************************/
+@media screen and (max-width: 992px) {
+
+}
+
+/******************************** @media queries telephone ******************************/
+@media screen and (max-width: 768px) {
+    
+}
