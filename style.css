@@ -231,12 +231,12 @@ form{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+
 }
 .hebergements_pop_titre{
     display: flex;
     flex-direction: row;
     align-items: center;
-
     margin-top: 25px;
 }
 #icone_chartline{
@@ -246,7 +246,6 @@ form{
 .pop_display{
     display: flex;
     flex-direction: column;
-
     gap: 33px;
 }
 .pop_card{
@@ -301,7 +300,7 @@ margin-right: 30px;
     flex-direction: column;
     margin-top: 20px;
     width: 302px;
-    height: 444px;
+    height: 524px;
     border-radius: 20px;
     box-shadow: 5px 5px 3px #F2F2F2;
 }
@@ -351,4 +350,46 @@ footer{
 }
 li{
     margin:15px 0px 15px 0px;
+}
+
+/******************************** @media queries tablette ******************************/
+@media screen and (max-width: 992px) {
+#hebergements{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-right: 30px;
+    gap: 50px;
+}
+.hebergements_pop{
+    width: 880px;
+    height: 278px;
+
+
+}
+.pop_display{
+    flex-direction: row;
+
+}
+.pop_card{
+    width: 252px;
+    height: 144px;
+}
+.pop_card_list{
+    margin-left: 10px;
+    margin-top: 12px;
+}
+.card_activ{
+    width: 182px;
+    height: 267px;
+}
+footer{
+    width: 880px;
+
+}
+}
+
+/******************************** @media queries telephone ******************************/
+@media screen and (max-width: 768px) {
+    
 }
