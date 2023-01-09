@@ -119,9 +119,14 @@ form{
     flex-direction: row;
     align-items: center;
 }
-.filtre{
+.fa-dog,.fa-heart,.fa-person,.fa-money-bill-wave{
     font-weight: 700;
     font-size: 18px;
+    color: #0065FC;
+}
+.filtre{
+    font-size: 18px;
+    font-weight: 700; 
 }
 .recherche_filtre_ul{
     width: 75%;
@@ -207,7 +212,7 @@ form{
 }
 .loc_card{
     width: 30%;
-    height: 215px;
+    height: 220px;
     background-color: white;
     border-radius: 20px;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
@@ -491,9 +496,16 @@ li{
         justify-content: center;
         margin-bottom: 0px;
     }
+    .form_recherche{
+        width: 80%;
+    }
+    .input_text{
+        width: 100%;
+    }
     .input_button{
-        width: 49px;
+        width: 50px;
         height: 49px;
+        align-items: center;
     }
     .no_loupe{
         display: none;
