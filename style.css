@@ -33,6 +33,7 @@ ul{
     width: 100%;
     height: 100%;
 }
+
 /***************** header ********************/
 .head{
     display: flex;
@@ -68,6 +69,7 @@ nav{
 }
 /***************** main ********************/
 /********** section recherche/filtre ************/
+
 .recherche{
     width: 100%;
 }
