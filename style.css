@@ -51,7 +51,7 @@ nav{
     justify-items: center;
     align-items: center;
 }
-.a_nav{
+.a_nav_activites,.a_nav_hebergements{
     margin-right: 67px;
     padding-top: 12.3%;
     font-weight:400;
@@ -59,7 +59,7 @@ nav{
     text-decoration: none;
     color: black;
 }
-.a_nav:hover{
+.a_nav_activites:hover,.a_nav_hebergements:hover{
     border-top: solid 2px;
     width: 162px;
     font-weight: 500;
@@ -467,27 +467,34 @@ li{
     .nav_mobile{
     width: 100%;
     display: flex;
-        justify-content: space-around;
+    justify-content: space-around;
     }
-    .a_nav{
+    .a_nav_activites,.a_nav_hebergements{
         width: 100%;
         font-weight:400;
         font-size: 16px;
         text-decoration: none;
         color: black;
-        padding: 0px;
+        padding-bottom: 10px;
+        padding-top: 50px;
         margin: 0px;
         text-align: center;
+        border-bottom: solid 3px;
+        border-bottom-color:#D9D9D9 ;
     }
-    .a_nav:hover{
+    .a_nav_activites:hover,.a_nav_hebergements:hover{
         width: 100%;
         border-top: none;
         border-bottom: solid 3px;
         font-weight: 500;
         border-bottom-color: #0065FC ;
         color: #0065FC;
-        padding-bottom: 10px;
         margin: 0px;
+    }
+    .a_nav_hebergements:defined{
+        border-bottom: solid 3px;
+        border-bottom-color: #0065FC ;
+        color: #0065FC;
     }
     .recherche{
         margin-top: 30px;
